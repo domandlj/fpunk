@@ -6,4 +6,4 @@ draft: false
 
 ## List of Tools
 
-Here you can add information about the tools you want to showcase.
+[Lean](/tools/lean/cheatsheet)
