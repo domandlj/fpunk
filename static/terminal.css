@@ -42,6 +42,7 @@ body {
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
   overflow-x: hidden; /* Prevent horizontal scrolling */
+  cursor: url(/cursor/Hand-Arrow.cur), auto;
 
 }
 
