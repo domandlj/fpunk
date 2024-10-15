@@ -28,13 +28,13 @@ program n = n + program (n-1)
 Ok, our program seems to meet the spec. Let's prove it by induction in $n$ 
 *Base case*. trivially true.
 *Indctive step.* As _inductive hypothesis_ assume the spec holds for $n$, let's see that it holds for $n+1$.
-
+By definiton
 $$
-\begin{align*}
-\text{program}(n + 1) & = n + 1 + \text{program}(n) \quad \text{(by definition)} \\
-& = n + 1 + \sum_{i=1}^{n} i \quad \text{(by inductive hypothesis)} \\
-& = \sum_{i=1}^{n + 1} i \quad \text{(by the formul}\text{ integers)}
-\end{align*}
+\text{program (n+1)} =(n+1)+ \text{program n}
+$$
+Applying inductive hypthesis and simplifcation yields
+$$
+\text{program (n+1)} =\sum_{i=1}^{n+1}i
 $$
 
 That's it our program is correct.
