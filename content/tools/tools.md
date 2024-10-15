@@ -6,4 +6,7 @@ draft: false
 
 ## List of Tools
 
-[Lean](/tools/lean/cheatsheet)
+# Proof assistants
+* [Lean](/tools/lean/cheatsheet)
+* [Coq](/tools/)
+* [Agda](/tools/)
