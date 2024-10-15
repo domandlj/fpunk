@@ -83,10 +83,6 @@ paginate = 5
           name = "home"
           url = "/"
        [[languages.en.menu.main]]
-          identifier = "tools"  # Change identifier as needed
-          name = "tools"        # Updated name
-          url = "/tools/"        # Change URL if necessary
-       [[languages.en.menu.main]]
-          identifier = "whoami"
-          name = "whoami"
-          url = "/"
+          identifier = "tools"  
+          name = "tools"      
+          url = "/tools/"       
