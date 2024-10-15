@@ -1,5 +1,5 @@
 ---
-title: "Lean cheat sheet2"
+title: "Lean cheat sheet"
 date: 2024-10-12
 draft: false
 ---
